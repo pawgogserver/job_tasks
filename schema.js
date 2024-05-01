@@ -3,9 +3,6 @@ const Schema = mongoose.Schema;
 
 let columnSchema = new Schema(
   {
-    _id: {
-      type: ObjectId,
-    },
     name: {
       type: String,
     },
