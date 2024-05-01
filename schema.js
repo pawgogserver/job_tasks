@@ -7,7 +7,7 @@ let columnSchema = new Schema(
       type: String,
     },
     bgColor: {
-      type: Number,
+      type: String,
     },
   },
   {
