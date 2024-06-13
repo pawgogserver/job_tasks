@@ -25,7 +25,7 @@ router.route('/column').post((req, res, next) => {
 
 router.route('/column/:id').put((req, res, next) => {
   column.updateMany(
-    { prod_id: req.params.id },
+    { _id: req.params.id },
     {
       $set: req.body,
     },
